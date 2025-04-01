@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+img{
+    width: 30px;
+}
 
 body{
     width: 100%;
@@ -13,8 +16,57 @@ body{
 }
 
 header{
-    background-color: red;
     grid-area: 1 / 2 / 2 / -1;
+    padding: 0 2vw;
+}
+.top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top>*{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.top input{
+    width: 40vw;
+}
+.top .prof-pic{
+    width: 50px;
+    border-radius: 50%;
+}
+.bottom{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom>*{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.bottom .prof-pic{
+    width: 80px;
+    border-radius: 50%;
+}
+.bottom .acc-name{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.bottom button{
+    background-color: blue;
+    width: 6vw;
+    height: 5vh;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
 }
 
 aside{
