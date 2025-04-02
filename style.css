@@ -59,7 +59,7 @@ header{
     font-weight: 600;
 }
 .bottom button{
-    background-color: blue;
+    background-color: #1992d4;
     width: 6vw;
     height: 5vh;
     border: none;
@@ -70,11 +70,33 @@ header{
 }
 
 aside{
-    background-color: yellow;
+    background-color: #1992d4;
     grid-area: 1 / 1 / -1 / 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 5fr;
+    gap: 1vw;
+    padding: 1vw;
+}
+aside .DBWrapper{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: #fff;
+}
+aside .DBWrapper img{
+    width: 50px;
+}
+aside ul li{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
 }
 
 main{
-    background-color: blue;
+    background-color: #e2e8f0;
     grid-area: 2 / 2 / -1 / -1;
 }
