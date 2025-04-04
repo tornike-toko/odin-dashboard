@@ -78,6 +78,9 @@ aside{
     gap: 1vw;
     padding: 1vw;
 }
+aside img{
+    filter: invert(1);
+}
 aside .DBWrapper{
     display: flex;
     align-items: center;
